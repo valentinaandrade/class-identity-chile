@@ -403,5 +403,5 @@ Al estudiar cómo la identidad de clase se ve afectada por la posición de clase
 
 [^1]: La codificación realizada manualmente por los investigadores según los códigos de la CIUO-08 fue complementada con los resultados obtenidos de un set de entrenamiento construido en lenguaje R por el Instituto Nacional de Estadísticas (INE) de Chile. Los resultados de este procedimiento fueron verificados con datos de la Encuesta Nacional de Empleo del INE para el periodo de aplicación de la encuesta. La comparación no indicó diferencias sustanciales.
 
-[^2]: Los procedimientos realizados para la construcción de la base de datos, análisis y escritura del artículo se encuentran abiertos y disponibles en el repositorio *Open Source Framework* (OSF) doi (indicar). 
+[^2]: Los procedimientos realizados para la construcción de la base de datos, análisis y escritura del artículo se encuentran abiertos y disponibles en el repositorio *Open Source Framework* (OSF) [DOI 10.17605/OSF.IO/PZGST](https://osf.io/pzgst/)
 
