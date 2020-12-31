@@ -1,0 +1,558 @@
+<table class="texreg" style="margin: 10px auto;border-collapse: collapse;border-spacing: 0px;caption-side: bottom;color: #000000;border-top: 2px solid #000000;">
+<thead>
+<tr>
+<th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
+<th style="padding-left: 5px;padding-right: 5px;">Modelo 1</th>
+<th style="padding-left: 5px;padding-right: 5px;">Modelo 2</th>
+<th style="padding-left: 5px;padding-right: 5px;">Modelo 3</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Intercepto</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.52<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.66<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.45<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.19)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.21)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.20)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Posición de clase</b> (ref: 9.Trabajadores no calificados)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Empresarios</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.64<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.31<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.64<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.43)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.78)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.43)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Pequeños empleadores</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.70<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.01<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.70<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.18)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.35)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.18)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Pequeña burguesía formal</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.37<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.81<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.36<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.59)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Expertos Directivos</td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.27<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.22<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.29<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.26)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.48)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.27)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Expertos sin autoridad</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.91<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.36<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.92<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.55)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.Supervisores calificados</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.26<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.50</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.26<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.20)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.90)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.20)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.Supervisores no calificados</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.79<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.11<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.80<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.Trabajadores calificados</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.48<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.41<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.48<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.60)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.Autoempleados informales</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.18</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.18</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.18</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.26)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Sindicalización</b> (ref: No)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sindicalizado</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.05</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.04</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.43</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.12)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.12)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.31)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Años</b> (ref: 1990)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.38<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.59<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.34<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.11)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.11)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.45<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.66<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.38<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.11)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.16)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.12)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Controles sociodemográficos</b></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Empleado sector privado (ref: Público)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.30<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.31<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.32<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mujer (ref:Hombre)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.23<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.22<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.23<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Edad (en años)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.01<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.01<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.01<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Region No RM (ref: Metropolitana)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.23<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.21<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.23<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.08)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Interacciones</b></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Empresarios- 2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.23</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(1.02)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Pequeños empleadores-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.65</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.43)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Pequeña burguesía formal-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.97</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.71)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Expertos managers-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.78</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.73)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Expertos sin autoridad-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.19</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.77)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.Supervisores calificados-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.77</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.94)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.Supervisores no calificados-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.30</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.33)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.Trabajadores calificados-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.01</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.63)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.Autoempleados informales-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.60</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.34)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Empresarios- 2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.59</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(1.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Pequeños empleadores-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.64</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.64)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Pequeña burguesía formal-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.12</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.72)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Expertos managers-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.50</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.63)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Expertos sin autoridad-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.01</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.64)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.Supervisores calificados-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.73</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.96)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.Supervisores no calificados-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.77<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.39)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.Trabajadores calificados-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.04</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.64)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.Autoempleados informales-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.38</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.33)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sindicalización-2009</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.51</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.36)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sindicalización-2019</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.65</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.37)</td>
+</tr>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Pseudo R$^{2}$</td>
+<td style="padding-left: 5px;padding-right: 5px;">00.946</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.1066</td>
+<td style="padding-left: 5px;padding-right: 5px;">00.953</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Log Likelihood</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1794.77</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1781.56</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1793.86</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Deviance</td>
+<td style="padding-left: 5px;padding-right: 5px;">3580.27</td>
+<td style="padding-left: 5px;padding-right: 5px;">3551.65</td>
+<td style="padding-left: 5px;padding-right: 5px;">3577.05</td>
+</tr>
+<tr style="border-bottom: 2px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Num. obs.</td>
+<td style="padding-left: 5px;padding-right: 5px;">2808</td>
+<td style="padding-left: 5px;padding-right: 5px;">2808</td>
+<td style="padding-left: 5px;padding-right: 5px;">2808</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="font-size: 0.8em;" colspan="4">$^{***}$ p < 0.001; $^{**}$ p < 0.01; $^{*}$ p < 0.05 <br> Errores estándar entre paréntesis 
+**Nota**: Para identidad de clases se utilizó una recodificación restrictiva, esto es, considerando solo de 'clase trabajadora' a quienes indicador ser de 'Clase Trabajadora' y 'Clase baja'</td>
+</tr>
+</tfoot>
+</table>
