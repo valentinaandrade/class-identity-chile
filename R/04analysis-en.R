@@ -14,10 +14,50 @@ issp <- issp19_09_99; remove(issp19_09_99)
 issp <- issp %>%
   filter(year != '1999-01-01', !is.na(class)&!is.na(identity_r)&!is.na(union)& !is.na(typewrk)&!is.na(region)&!is.na(sex)&!is.na(age), !is.na(class))
 
+# 3. Exploratorio ---------------------------------------------------------
+issp %>% group_by(year) %>% 
+  select(contains("identity"), FACTOR) %$%  
+  sjmisc::frq(., weights = .$FACTOR)
 
-# 4. Estimar modelo
+
+# Graphs ------------------------------------------------------------------
+# Class -------------------------------------------------------------------
+issp %>% select(identity_d, class, union, year) %>% 
+  pivot_longer(!c(identity_d, year),
+               names_to = "variable", values_to = "value") %>% 
+  group_by(year, variable, value, identity_d) %>%
+  summarise(n = n()) %>% 
+  mutate(prop = round(n/sum(n),3),
+         value = car::recode(value, c('"1.Capitalists"="1.Employers";"2.Small employers"="2.Small\nemployers";
+                                      "3.Petite bourgeoisie"="3.Petite\nbourgeoisie";"4.Expert managers"="4.Expert\nmanagers";
+                                      "5.Nonmanagerial experts"="5.Experts";"6.Skilled supervisors"="6.Skilled\nsupervisors";
+                                      "7.Unskilled supervisors"="7.Unskilled\nsupervisors"; "8.Skilled workers"="8.Skilled\nworkers";
+                                      "9.Unskilled workers"="9.Unskilled\nworkers";"10. Informal self-employed"="10.Informal\nself-employed";
+                                      "Si"="Yes"')),
+         identity_d = car::recode(identity_d, c("0 ='Other';1='Lower class';2='Working class'"), as.factor = T,
+                                  levels = c("Working class", "Lower class")),
+         year = lubridate::year(year),
+         variable = car::recode(variable, c("'class'='Social class position';'union'='Unionization'"))) %>%
+  filter(identity_d != 'Other') %>% 
+  ggplot(aes(x = value, y = prop, fill = identity_d)) +
+  geom_bar(color = "black", stat = "identity") +
+  geom_text(aes(label = paste0(prop*100, "%")), color = "white", fontface ="bold",
+            position = position_stack(vjust = .5)) +
+  labs(y = "Class identity (%)", x ="", fill = "") +
+  scale_y_continuous(labels = scales::percent_format()) +
+  facet_wrap(variable~year, scales = "free") +
+  theme(axis.text.x = element_text(angle = -90,vjust = 0.5, hjust=-0.05),
+        legend.position = "bottom") + 
+  scale_fill_grey()
+
+ggsave(plot = last_plot(), filename = "output/images/figure3.1-en.png",
+         device = "png",dpi = "retina", units = "cm",
+         width = 27,height = 21)
+
+
+
+# 4. Estimar modelo -------------------------------------------------------
 # Predictores categóricos
-issp <- issp %>%  filter(!is.na(class), !is.na(age), !is.na(sex), !is.na(union), !is.na(typewrk))
 
 issp$class<- as_factor(issp$class) # Clase
 issp <- within(issp, class <- relevel(class, ref = "9.Unskilled workers"))
@@ -37,6 +77,13 @@ m01 <- glm(identity_r~ class + union +year  + typewrk + sex + age + region,data 
 m02 <- glm(identity_r~ class +  union+ year  + typewrk + sex + age + region + year*class,data = issp,family = "binomial", weights = FACTOR)
 m03 <- glm(identity_r~ class  + union + year + typewrk + sex + age + region + year*union,data = issp,family = "binomial", weights = FACTOR)
 
+# Modelos anexos
+# Modelos sustantivos
+m00_w <- glm(identity_w~ 1,data = issp,family = "binomial", weights = FACTOR)
+m01_w <- glm(identity_w~ class + union +year  + typewrk + sex + age + region,data = issp,family = "binomial", weights = FACTOR)
+m02_w <- glm(identity_w~ class +  union+ year  + typewrk + sex + age + region + year*class,data = issp,family = "binomial", weights = FACTOR)
+m03_w <- glm(identity_w~ class  + union + year + typewrk + sex + age + region + year*union,data = issp,family = "binomial", weights = FACTOR)
+
 # 5. Presentacion
 labs01 <- c("Intercepto", "1. Empresarios", "2.Pequeños empleadores",
             "3.Pequeña burguesía formal", "4.Expertos Directivos",
@@ -47,7 +94,7 @@ labs01 <- c("Intercepto", "1. Empresarios", "2.Pequeños empleadores",
             "1. Empresarios- 2019", "2.Pequeños empleadores-2019", "3.Pequeña burguesía formal-2019", "4.Expertos managers-2019", "5.Expertos sin autoridad-2019", "6.Supervisores calificados-2019", "7.Supervisores no calificados-2019", "8.Trabajadores calificados-2019", "10.Autoempleados informales-2019",
             "Sindicalización-2019")
 
-# Tabla
+# Tablas------
 htmlreg(l = list(m01,m02,m03),
         groups = list(" " = 1,"<b>Posición de clase</b> (ref: 9.Trabajadores no calificados)" = 2:10,
                       "<b>Sindicalización</b> (ref: No)" = 11,
@@ -78,6 +125,25 @@ htmlreg(l = list(m01,m02,m03),
         include.pseudors = TRUE,
         custom.gof.rows = list("Pseudo R$^{2}$" = c("00.946","0.1066","00.953")), 
         custom.note = "$^{***}$ p < 0.001; $^{**}$ p < 0.01; $^{*}$ p < 0.05 <br> Errores estándar entre paréntesis \n**Nota**: Para identidad de clases se utilizó una recodificación restrictiva, esto es, considerando solo de 'clase trabajadora' a quienes indicador ser de 'Clase Trabajadora' y 'Clase baja'")
+
+
+# Modelo anexos -----------------------------------------------------------
+htmlreg(l = list(m02,m02_w,m03,m03_w), file = "output/modelo-anexo.doc",
+        groups = list(" " = 1,"<b>Posición de clase</b> (ref: 9.Unskilled workers)" = 2:10,
+                      "<b>Sindicalización</b> (ref: No)" = 11,
+                      "<b>Años</b> (ref: 2009)" = 12,
+                      "<b>Controles sociodemográficos</b>" = 13:16,
+                      "<b>Interacciones</b>" = 17:26),
+        custom.model.names = c("Model 2<br>restrictive definition","Model 2<br>broad definition",
+                               "Model 3<br>restrictive definition","Model 3<br>broad definition"),
+        caption= "",
+        caption.above = "Table. Logistic model regresion, 2009 – 2019",
+        include.aic = F,
+        include.bic = F,
+        include.pseudors = TRUE,
+        custom.gof.rows = list("Pseudo R$^{2}$" = c("0.08","0.037","0.075","0.032")), 
+        custom.note = "$^{***}$ p < 0.001; $^{**}$ p < 0.01; $^{*}$ p < 0.05 <br> Standar errors in parenthesis \n")
+
 
 # Figura 3 ----------------------------------------------------------------
 # Probabilidades predichas para identidad de clase según clase social
