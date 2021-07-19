@@ -1,0 +1,495 @@
+<table class="texreg" style="margin: 10px auto;border-collapse: collapse;border-spacing: 0px;caption-side: bottom;color: #000000;border-top: 2px solid #000000;">
+<thead>
+<tr>
+<th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 2<br>restrictive definition</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 2<br>broad definition</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 3<br>restrictive definition</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 3<br>broad definition</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Intercept)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.30</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.03</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.26</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.07</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.23)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Posición de clase</b> (ref: 9.Unskilled workers)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class1.Capitalists</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.05</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.25</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.35<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.69</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.66)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.68)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.51)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.53)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class2.Small employers</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.35</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.15</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.59<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.08</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.25)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.24)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class3.Petite bourgeoisie</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.83<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.19</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.27<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.68<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.39)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.40)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.28)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.29)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class4.Expert managers</td>
+<td style="padding-left: 5px;padding-right: 5px;">-3.03<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.13<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.35<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.61<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.54)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.54)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.32)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.32)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class5.Nonmanagerial experts</td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.59<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.69<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.80<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.18<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.54)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.54)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.28)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.29)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class6.Skilled supervisors</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.25<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.67<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.26<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.80<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.26)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.28)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.21)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class7.Unskilled supervisors</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.83<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.33</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.67<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.18</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.22)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.17)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.18)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class8.Skilled workers</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.41<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.20</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.39<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.20</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.19)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.19)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class10. Informal self-employed</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.44</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.48<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.31<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.29<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.23)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.20)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.14)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Sindicalización</b> (ref: No)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unionSi</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.14</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.05</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.08</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.04</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.18)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.18)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Años</b> (ref: 2009)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.07</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.30<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.05</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.26<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.13)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.10)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.10)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Controles sociodemográficos</b></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;typewrkPrivado</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.17</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.05</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.18</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.04</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.15)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sexMujer</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.22<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.20<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.21<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.19<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;age</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.00</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.00</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.00</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.00)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;regionNo metropolitana</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.10</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.15</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.12</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.13</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.09)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;"><b>Interacciones</b></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class1.Capitalists:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.74</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.99</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(1.07)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(1.08)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class2.Small employers:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.30<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.17<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.58)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.58)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class3.Petite bourgeoisie:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.89</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.95</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.57)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.58)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class4.Expert managers:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.25</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.88</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.68)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.68)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class5.Nonmanagerial experts:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.21</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.72</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.63)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.63)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class6.Skilled supervisors:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.33</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.44)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.46)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class7.Unskilled supervisors:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.47</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.43</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.37)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.37)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class8.Skilled workers:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.03</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.00</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.29)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.30)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;class10. Informal self-employed:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.23</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.39</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.31)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.28)</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unionSi:year2019-01-01</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.15</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.22</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.27)</td>
+<td style="padding-left: 5px;padding-right: 5px;">(0.26)</td>
+</tr>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Pseudo R$^{2}$</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.08</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.037</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.075</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.032</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Log Likelihood</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1402.83</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1432.81</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1411.49</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1440.05</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Deviance</td>
+<td style="padding-left: 5px;padding-right: 5px;">2741.12</td>
+<td style="padding-left: 5px;padding-right: 5px;">2804.17</td>
+<td style="padding-left: 5px;padding-right: 5px;">2760.56</td>
+<td style="padding-left: 5px;padding-right: 5px;">2819.13</td>
+</tr>
+<tr style="border-bottom: 2px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Num. obs.</td>
+<td style="padding-left: 5px;padding-right: 5px;">2152</td>
+<td style="padding-left: 5px;padding-right: 5px;">2152</td>
+<td style="padding-left: 5px;padding-right: 5px;">2152</td>
+<td style="padding-left: 5px;padding-right: 5px;">2152</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="font-size: 0.8em;" colspan="5">$^{***}$ p < 0.001; $^{**}$ p < 0.01; $^{*}$ p < 0.05 <br> Standar errors in parenthesis 
+</td>
+</tr>
+</tfoot>
+</table>
