@@ -2,7 +2,7 @@
 # Profesor Pablo Pérez y ayudante de investigacion Valentina Andrade
 
 # 1. Cargar librarias
-pacman::p_load(haven, dplyr, car, tidyverse, ggplot2, summarytools, magrittr, forgein)
+pacman::p_load(haven, dplyr, car, tidyverse, ggplot2, summarytools, magrittr)
 
 # Esquema 2019 ----------------------
 # 2. Cargar base de datos
@@ -143,12 +143,13 @@ issp$identity_b <- as.numeric(issp$identity_b)
 table(issp$identity_b)
 issp$identity_b <- car::recode(issp$identity_b, recodes = c("c(88,99)=NA"))
 issp19 <- issp %>%  mutate(year = as.Date("2019-1-1"),
-                           identity_d = case_when(identity_b %in% c(1,2,3) ~ 1, identity_b %in% c(4,5,6) ~ 0, TRUE ~NA_real_ ),
-                           identity = case_when(identity_b %in% c(1,2) ~ 2, identity_b %in% c(3,4) ~ 1, identity_b %in% c(5,6) ~ 0, TRUE ~NA_real_ ),
-                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
+                           identity_w = case_when(identity_b %in% c(2) ~ 1, identity_b %in% c(1,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_l = case_when(identity_b %in% c(1) ~ 1, identity_b %in% c(2,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_d = case_when(identity_b %in% c(2) ~ 2, identity_b %in% c(1) ~ 1,identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
 
-table(issp19$identity_d)
-table(issp19$identity_r)
+issp19 %>%  select(contains("identity"), FACTOR) %$%  
+sjmisc::frq(., weights = .$FACTOR)
 
 
 # 5. Variables independientes 2019 ----
@@ -193,7 +194,6 @@ issp <- read_stata("data/ISSP2009.dta")
 # Otras: pregunta 15 percepcion desigualdad espacial
 # 1. Propiedad; 2. Autoridad; 3. Calificaciones
 names(issp)
-find_var(issp, "sexo")
 issp <- select(issp,
                SEXO=SEX,
                EDAD=AGE,
@@ -324,14 +324,6 @@ issp$class <- with(issp, ifelse(prop_salaried=="Salaried" & control=="No control
 issp$class <- with(issp, ifelse(prop_salaried=="Salaried" & control=="No control" & skills=="Unskilled", 9, class))
 issp$class <- with(issp, ifelse(prop_salaried=="3.Petite bourgeoisie"  & qual == 2, 10, class))
 
-
-table(issp$class)
-table(issp$owners)
-table(issp$prop_salaried)
-table(issp$skillsA)
-table(issp$control)
-table(issp$qual)
-
 #3.2 Etiquetar class
 issp$class <- factor(issp$class,levels = c(1:10),
                      labels = c("1.Capitalists","2.Small employers","3.Petite bourgeoisie",
@@ -339,7 +331,6 @@ issp$class <- factor(issp$class,levels = c(1:10),
                                 "6.Skilled supervisors","7.Unskilled supervisors",
                                 "8.Skilled workers","9.Unskilled workers", "10. Informal self-employed"))
 
-table(issp$class)
 
 # 3.3 Verificar
 issp %>% 
@@ -349,16 +340,15 @@ issp %>%
 
 # 4. Identidad de clases ---------------
 issp$identity_b <- as.numeric(issp$identity_b)
-table(issp$identity_b)
+
 issp09 <- issp %>%  mutate(year = as.Date("2009-1-1"),
-                           identity_d = case_when(identity_b %in% c(1,2,3) ~ 1, identity_b %in% c(4,5,6) ~ 0, TRUE ~NA_real_ ),
-                                               identity = case_when(identity_b %in% c(1,2) ~ 2, identity_b %in% c(3,4) ~ 1, identity_b %in% c(5,6) ~ 0, TRUE ~NA_real_ ),
-                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
+                           identity_w = case_when(identity_b %in% c(2) ~ 1, identity_b %in% c(1,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_l = case_when(identity_b %in% c(1) ~ 1, identity_b %in% c(2,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_d = case_when(identity_b %in% c(2) ~ 2, identity_b %in% c(1) ~ 1,identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
 
-
-table(issp09$identity_d)
-table(issp09$identity_r)
-
+issp09 %>%  select(contains("identity"), FACTOR) %$%  
+  sjmisc::frq(., weights = .$FACTOR)
 
 # 5. Variables independientes 2009 ----
 # Sexo
@@ -392,7 +382,6 @@ issp09$region <- as.numeric(issp09$region)
 issp09$region <- ifelse(issp09$region == 13, 'Metropolitana','No metropolitana')
 issp09$region <- as_factor(issp09$region)
 table(issp09$region)
-
 
 # 6. Guardar  ----------
 save(issp, file = "data/issp09-proc.RData")
@@ -455,7 +444,7 @@ issp <- issp %>% mutate(owners = case_when(owners %in% c(0,1, 9995, 9999, 9997)&
                                            TRUE ~ NA_character_))
 
 # 14 self-employed que indican 9997(refused) y 9999 (no anwser)y 0 Not available/ NAP: Not in labour force; not self-employed
-table(issp$owners)
+
 # A.2 Verificar
 issp %>% count(owners) %>% mutate(prop = prop.table(n))
 
@@ -551,10 +540,6 @@ issp$class <- factor(issp$class,levels = c(1:10),
                                 "6.Skilled supervisors","7.Unskilled supervisors",
                                 "8.Skilled workers","9.Unskilled workers", "10. Informal self-employed"))
 
-table(issp$class)
-
-## Arreglar n de selfemployers
-
 # 3.3 Verificar
 issp %>% 
   filter(!is.na(class)) %>% 
@@ -564,15 +549,15 @@ issp %>%
 issp$identity_b <- as.numeric(issp$identity_b)
 table(issp$identity_b)
 issp$identity_b <- car::recode(issp$identity_b, recodes = c("c(97,98,99)=NA"))
-issp$identity_v1999 <- as.numeric(issp$identity_b)
-issp99 <- issp %>%  mutate(year = as.Date("1999-1-1"),
-                           identity_d = case_when(identity_b %in% c(1,2,3) ~ 1, identity_b %in% c(4,5,6) ~ 0, TRUE ~NA_real_ ),
-                           identity = case_when(identity_b %in% c(1,2) ~ 2, identity_b %in% c(3,4) ~ 1, identity_b %in% c(5,6) ~ 0, TRUE ~NA_real_ ),
-                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
 
-table(issp19$identity_d)
-table(issp09$identity_d)
-table(issp99$identity_d)
+issp99 <- issp %>%  mutate(year = as.Date("1999-1-1"),
+                           identity_w = case_when(identity_b %in% c(2) ~ 1, identity_b %in% c(1,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_l = case_when(identity_b %in% c(1) ~ 1, identity_b %in% c(2,3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_r = case_when(identity_b %in% c(1,2) ~ 1, identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ ),
+                           identity_d = case_when(identity_b %in% c(2) ~ 2, identity_b %in% c(1) ~ 1,identity_b %in% c(3,4,5,6) ~ 0, TRUE ~NA_real_ )) 
+
+issp99 %>%  select(contains("identity"), FACTOR) %$%  
+  sjmisc::frq(., weights = .$FACTOR)
 
 # 5. Variables independientes 1999 ----
 # Sexo
@@ -613,11 +598,8 @@ table(issp99$region)
 save(issp99, file = "data/issp99-proc.RData")
 
 # Unir tres bases ----------
-str(issp19$SEXO)
-str(issp09$SEXO)
-str(issp99$SEXO)
 issp <- bind_rows(issp19,issp09,issp99)
-issp19_09_99 <- issp %>% select(year, class, sex=SEXO,region, age=EDAD, educ, union=UNION,typewrk=TYPEWRK, starts_with("identity"), FACTOR,-identity_v1999)
+issp19_09_99 <- issp %>% select(year, class, sex=SEXO,region, age=EDAD, educ, union=UNION,typewrk=TYPEWRK, starts_with("identity"), FACTOR)
 
 # Guardar 
 save(issp19_09_99,issp19, issp09,issp99, file = "data/issp-proc2.RData") # Cambiar issp19-09-99
