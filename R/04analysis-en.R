@@ -34,10 +34,10 @@ issp %>% select(identity_d, class, union, year) %>%
                                       "7.Unskilled supervisors"="7.Unskilled\nsupervisors"; "8.Skilled workers"="8.Skilled\nworkers";
                                       "9.Unskilled workers"="9.Unskilled\nworkers";"10. Informal self-employed"="10.Informal\nself-employed";
                                       "Si"="Yes"')),
-         identity_d = car::recode(identity_d, c("0 ='Other';1='Lower class';2='Working class'"), as.factor = T,
-                                  levels = c("Working class", "Lower class")),
+         identity_d = car::recode(identity_d, c("0 ='Other';1='Lower class';2='Working class (restrictive measure)'"), as.factor = T,
+                                  levels = c("Working class (restrictive measure)", "Lower class")),
          year = lubridate::year(year),
-         variable = car::recode(variable, c("'class'='Social class position';'union'='Unionization'"))) %>%
+         variable = car::recode(variable, c("'class'='Class location';'union'='Union membership status'"))) %>%
   filter(identity_d != 'Other') %>% 
   ggplot(aes(x = value, y = prop, fill = identity_d)) +
   geom_bar(color = "black", stat = "identity") +
@@ -48,7 +48,7 @@ issp %>% select(identity_d, class, union, year) %>%
   facet_wrap(variable~year, scales = "free") +
   theme(axis.text.x = element_text(angle = -90,vjust = 0.5, hjust=-0.05),
         legend.position = "bottom") + 
-  scale_fill_grey()
+  scale_fill_grey(start = 0.3, end = 0.5)
 
 ggsave(plot = last_plot(), filename = "output/images/figure3.1-en.png",
          device = "png",dpi = "retina", units = "cm",
