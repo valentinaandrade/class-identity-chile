@@ -2,10 +2,10 @@
 <thead>
 <tr>
 <th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
-<th style="padding-left: 5px;padding-right: 5px;">Model 2<br>restrictive definition</th>
 <th style="padding-left: 5px;padding-right: 5px;">Model 2<br>broad definition</th>
-<th style="padding-left: 5px;padding-right: 5px;">Model 3<br>restrictive definition</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 2<br>restrictive definition</th>
 <th style="padding-left: 5px;padding-right: 5px;">Model 3<br>broad definition</th>
+<th style="padding-left: 5px;padding-right: 5px;">Model 3<br>restrictive definition</th>
 </tr>
 </thead>
 <tbody>
