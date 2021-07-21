@@ -28,12 +28,13 @@ issp %>% select(identity_d, class, union, year) %>%
   group_by(year, variable, value, identity_d) %>%
   summarise(n = n()) %>% 
   mutate(prop = round(n/sum(n),3),
-         value = car::recode(value, c('"1.Capitalists"="1.Employers";"2.Small employers"="2.Small\nemployers";
-                                      "3.Petite bourgeoisie"="3.Petite\nbourgeoisie";"4.Expert managers"="4.Expert\nmanagers";
-                                      "5.Nonmanagerial experts"="5.Experts";"6.Skilled supervisors"="6.Skilled\nsupervisors";
-                                      "7.Unskilled supervisors"="7.Unskilled\nsupervisors"; "8.Skilled workers"="8.Skilled\nworkers";
-                                      "9.Unskilled workers"="9.Unskilled\nworkers";"10. Informal self-employed"="10.Informal\nself-employed";
-                                      "Si"="Yes"')),
+         value = car::recode(value, c('"1.Capitalists"="1.Employers";
+                                      "5.Nonmanagerial experts"="5.Experts";
+                                      "Si"="Yes"'), as.factor = T,
+                             levels = c("1.Employers","2.Small employers","3.Petite bourgeoisie",
+                                        "4.Expert managers", "5.Experts","6.Skilled supervisors",
+                                        "7.Unskilled supervisors","8.Skilled workers",
+                                        "9.Unskilled workers","10. Informal self-employed", "Yes", "No")),
          identity_d = car::recode(identity_d, c("0 ='Other';1='Lower class';2='Working class (restrictive measure)'"), as.factor = T,
                                   levels = c("Working class (restrictive measure)", "Lower class")),
          year = lubridate::year(year),
@@ -55,6 +56,10 @@ ggsave(plot = last_plot(), filename = "output/images/figure3.1-en.png",
          width = 27,height = 21)
 
 
+# Chiq tests --------------------------------------------------------------
+
+issp %>% select(class,union, identity_r) %$%  
+sjPlot::sjp.aov1(var.dep = .$identity_r, var.grp = .$union)
 
 # 4. Estimar modelo -------------------------------------------------------
 # Predictores categóricos
@@ -134,8 +139,8 @@ htmlreg(l = list(m02,m02_w,m03,m03_w), file = "output/modelo-anexo.doc",
                       "<b>Años</b> (ref: 2009)" = 12,
                       "<b>Controles sociodemográficos</b>" = 13:16,
                       "<b>Interacciones</b>" = 17:26),
-        custom.model.names = c("Model 2<br>restrictive definition","Model 2<br>broad definition",
-                               "Model 3<br>restrictive definition","Model 3<br>broad definition"),
+        custom.model.names = c("Model 2<br>broad definition","Model 2<br>restrictive definition",
+                               "Model 3<br>broad definition","Model 3<br>restrictive definition"),
         caption= "",
         caption.above = "Table. Logistic model regresion, 2009 – 2019",
         include.aic = F,
